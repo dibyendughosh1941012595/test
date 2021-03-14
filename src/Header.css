@@ -21,5 +21,9 @@
     display: flex;
     padding-left:600px;
   }
+
+  .name{
+      text-decoration:none;
+  }
   
 

@@ -6,6 +6,7 @@
     color:gray;
     cursor:pointer;
     padding-right:65px;
+    text-decoration:none;
 }
 
 .headerOption:hover{
@@ -15,6 +16,7 @@
 .headerOption_title{
     font-size:13px;
     font-weight:600;
+    text-decoration:none;
 }
 
 .headerOption_icon{

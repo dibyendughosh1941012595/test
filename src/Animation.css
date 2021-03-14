@@ -2,10 +2,25 @@
     color:white;
     padding-left:50px;
     align-items: center;
-    padding-top:250px;
+    padding-top:130px;
     width:900px;
 }
 
-.myRef{
-    background-color: blue;
+.github{
+    display:flex;
+    margin-left:120px;
+    margin-top:18px;
+    height:70px !important;
+    width:70px !important;
+    color:white;
+
+}
+
+.linkedin{
+    display:flex;
+    margin-left:50px;
+    margin-top:18px;
+    height:70px !important;
+    width:70px !important;
+    color:white;
 }

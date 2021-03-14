@@ -16,10 +16,18 @@ function Header() {
       </Link>
 
       <div className="header_right">
-        <HeaderOption Icon={HomeIcon} title="HOME" />
-        <HeaderOption Icon={InfoIcon} title="ABOUT US" />
-        <HeaderOption Icon={AccountTreeIcon} title="PROJECTS" />
-        <HeaderOption Icon={LocalLibraryIcon} title="OPEN VEGA LIB" />
+        <Link to="/" style={{ textDecoration: 'none' }}>
+          <HeaderOption Icon={HomeIcon} title="HOME" className="name" />
+        </Link>
+        <Link to="/about" style={{ textDecoration: 'none' }}>
+          <HeaderOption Icon={InfoIcon} title="ABOUT US" />
+        </Link>
+        <Link to="/projects" style={{ textDecoration: 'none' }}>
+          <HeaderOption Icon={AccountTreeIcon} title="PROJECTS" />
+        </Link>
+        <Link to="/OpenVegaLib" style={{ textDecoration: 'none' }}>
+          <HeaderOption Icon={LocalLibraryIcon} title="OPEN VEGA LIB" />
+        </Link>
       </div>
     </nav>
   )

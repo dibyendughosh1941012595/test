@@ -1,0 +1,50 @@
+.images{
+    height:200px;
+    width:200px;
+    border-radius: 25px;
+    margin-left:15px;
+    margin-top:15px;
+    margin-bottom:5px;
+}
+
+.slide > h1{
+    color:white;
+    display:flex;
+    margin-left:39%;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.slide{
+    margin-top:75px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .div1 {
+    display: inline-block;
+    animation: marquee 16s linear infinite;
+  }
+  
+  .div2 {
+    display: inline-block;
+    animation: marquee2 16s linear infinite;
+    animation-delay: 8s;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes marquee2 {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-200%);
+    }
+  }

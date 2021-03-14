@@ -1,7 +1,10 @@
 import React from 'react'
 import './App.css'
 import Header from './Header'
-import Homepage from './Homepage'
+import Animation from './Animation'
+import Body from './Body'
+import Footer from './Footer'
+import Images from './Images'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
@@ -18,9 +21,12 @@ function App() {
           <Route path="/OpenVegaLib">
             <h1>OpenVegaLib</h1>
           </Route>
-          <Route path="/">
+          <Route path="/" exact>
             <Header />
-            <Homepage />
+            <Animation />
+            <Body />
+            <Images />
+            <Footer />
           </Route>
         </Switch>
       </div>
